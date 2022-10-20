@@ -1,0 +1,115 @@
+.signinContainer{
+    height: 580px;
+    width: 1200px;
+    margin-top: 2rem;
+    box-shadow: rgba(149, 157, 165, 0.3) 0px 2px 24px;
+}
+.signinContainer > .rightPanel{
+    margin-left: -2rem;
+}
+.userfeildssign{
+    position: relative;
+    margin-bottom: 30px;
+}
+.signinContainer > .rightPanel > h2{
+    text-align: left;
+    margin-left: 8rem;
+}
+.signfeildsContainer > form >.userfeildssign> .userSubmit{
+    width: 10px;
+}
+.userfeildssign > input{
+  border: none;
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding: 16px;
+  border-radius: 3px;
+  width: 340px;
+  font-size: 14px;
+  border: 2px solid #ddd;
+}
+.userfeildssign > .placeholder{
+    position: absolute;
+    left:170px;
+    top:calc(50%+18px);
+    transform: translateY(-50%);
+    color: #aaaa;
+}
+.userfeildssign input:focus{
+    background-color: #fff;
+}
+
+.userfeildssign input:focus + .placeholder{
+    top:0px;
+    font-size: 12px;
+    color: #222;
+    transition: all 0.5s;
+    background: #fff;
+    padding: 0 7px;
+}
+.userfeildssign > .formErr{
+    color: #dc3545;
+    display: flex;
+    margin-left: 8rem;
+    margin-right: 9rem;
+    margin-top: 0.4rem;
+    margin-bottom: -0.8rem;
+ }
+ .formSigninError > span{
+    margin-right: 0.1rem;
+    font-size: 20px;
+ }
+ .formSigninError > div{
+    font-size: 12px;
+ }
+ .userPasswordsignin{
+    margin-right: -0.9rem;
+    width: 20rem;
+ }
+ .userPasswordsignin  > div{
+    font-size: 12px;
+ }
+ .userfeildssign > .showPass{
+    right:9rem;
+ }
+ .userSubmit{
+    width: 300px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: #121212;
+    color:#fff;
+    border-radius: 3px;
+}
+.signinfeildsContainer > form > .userSubmit{
+    background-color: darkcyan;
+    border: none;
+    outline: none;
+    width: 340px;
+}
+.userSubmitSign:hover{
+    filter:opacity(0.8);
+    cursor: pointer;
+}
+.confirmation{
+    width: 28rem;
+    margin: auto;
+    margin-top: 10rem;
+}
+.confirmation > h2{
+    font-size: 1.6rem;
+} 
+.confirmation > h5{
+    margin-top: 2rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+.confirmation > h5:hover{
+    color:#dc3545
+}
+.animeSignin{
+    margin-top: 5rem;
+}

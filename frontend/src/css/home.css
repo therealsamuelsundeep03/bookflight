@@ -1,0 +1,182 @@
+/* header section */
+.root{
+    --headerHeight:20px
+}
+.header{
+    /* background-color:antiquewhite; */
+    padding:  20px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.appName{
+    text-align: left;
+    font-size: 40px;
+}
+.logout{
+    font-size: 18px;
+    font-weight: 500;
+    background-color: rgb(13, 84, 84);
+    color: #fff;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    height: 50px; 
+    width: 120px;
+    border-radius: 4px;
+}
+.home{
+    background-color: rgb(3, 101, 101);
+    color: #fff;
+    height: 100vh;
+    overflow-y: hidden;
+}
+/* search section */
+.searchSection{
+    margin-top:4rem;
+    /* background-color: #042759; */
+    background-color: rgb(3, 101, 101);
+    color: #fff;
+    text-align: left;
+    padding:60px 140px;
+    height: calc(100vh - 77px);
+    position: relative;
+}
+.searchSection > h1{
+    margin-bottom: 40px;
+    font-size: 40px;
+}
+.ticketInputs{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 2px;
+}
+.ticketInp > input{
+    /* background: #214374; */
+    background: darkcyan;
+    color: #fff;
+}
+.ticketInp > input{
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    width: 300px;
+    height: 44px;
+    padding-left: 13px;
+}
+.ticketInp > label{
+    font-weight: 500;
+}
+.ticketInp ::placeholder{
+    padding-left: 10px;
+    color: #ddd;
+    text-transform: capitalize;
+}
+
+/* suggestions */
+.suggestions{
+    /* background-color: #fff; */
+    background-color: rgb(14, 74, 74);
+    color: #fff;
+    border-radius: 4px;
+    margin: 10px 3px;
+    /* padding: 10px; */
+    cursor: pointer;
+    position: absolute;
+    width: 300px;
+}
+.sugCity{
+    text-transform: capitalize;
+    padding: 10px 10px;
+    width: 100%;
+    height: 40px;
+    /* border-bottom: 1px solid #ddd; */
+}
+.suggestions > div:last-child{
+    border-radius: none;
+}
+.sugCity:hover{
+    /* background-color: #ddd;
+    color: #111; */
+    background-color: darkcyan;
+    color: #fff;
+    border-radius: 4px;
+}
+.options{
+    background-color: #fff;
+    /* background-color: rgb(8, 71, 71); */
+    color: #111;
+    padding:20px;
+    border-radius: 4px;
+    display: flex;
+}
+.adult > button{
+    border: none;
+    outline: none;
+    border-radius: 30%;
+    background-color: #fff;
+    margin: 16px 10px;
+}
+.ticketErr{
+    color: rgb(28, 205, 205);
+}
+.opt{
+    margin-top: 2rem;
+}
+.options{
+    display: none;
+    position: absolute;
+    left: 67.9rem;
+    width: 300px;
+    top:240px;
+    /* background-color: rgb(14, 74, 74); */
+    background-color:darkcyan ;
+    color: #fff;
+}
+.class > input{
+    margin: 0px 2px;
+}
+.class > label{
+    margin-right: 1.3rem;
+}
+.adult > h5{
+    font-size: 16px;
+    margin-bottom: -0.2rem;
+    margin-left: 1rem;
+}
+.adult{
+    margin-bottom: 1rem;
+}
+.showopt{
+    display: block;
+}
+
+.noRes{
+    /* color: red; */
+    margin: auto;
+    border-bottom: none;
+    padding-top: 13px;
+}
+.searchBut{
+    height: 60px;
+    width: 270px;
+    margin-top: 8rem;
+    position: absolute;    
+}
+.searchBut > button{
+    background-color: rgb(13, 84, 84);
+    color: #fff;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    text-transform: uppercase;
+    height: 100%; 
+    width: 100%;
+    border-radius: 4px;
+}
+
+/* .posBut{
+    margin-top:-2rem;
+} */
+/* .hr{
+    border-bottom: 2px solid #ddd;
+} */

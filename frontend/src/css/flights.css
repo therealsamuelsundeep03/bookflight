@@ -1,0 +1,82 @@
+.fromTo{
+    background-color: rgb(13, 84, 84);
+    color: #fff;
+    padding: 30px 70px;
+    font-weight: 500;
+    font-size: 17px;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+}
+.cityft{
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+.departft{
+    margin-left: 20px;
+}
+.flight{
+    /* display: flex;
+    gap:120px */
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    border-bottom: 2px solid #ddd;
+}
+.disableClick{
+    pointer-events: none;
+    color: grey;
+}
+div.flights div:last-child{
+    border: none; 
+}
+.flightname{
+    text-transform: capitalize;
+    /* margin-right: 1px; */
+    font-weight: 400;
+    margin-top: 100px;
+}
+.timingsft{
+    display: flex;
+    margin-top: 90px;
+}
+.flighticon{
+    margin-right: 10px;
+    margin-top: 70px;
+}
+.scheduledft{
+    font-size: 20px;
+}
+.flightsDet{
+    width: 90vw;
+    margin: auto;
+    margin-top: 2rem;
+    box-shadow: rgba(149, 157, 165, 0.5) 0px 4px 24px;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.arrow{
+    margin : 0px 30px
+}
+.cityimage{
+    height: 230px;
+    width: 230px;
+
+}
+.cityimage > img{
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+}
+.priceft{
+    margin-top: 90px;
+}
+.priceft > button{
+    border: none;
+    outline: none;
+    padding: 7px;
+    width: 150px;
+    border-radius: 4px;
+    background-color: darkcyan;
+    color: #fff;
+}

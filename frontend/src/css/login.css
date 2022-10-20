@@ -1,0 +1,211 @@
+.userLoginPage{
+    /* position: absolute;
+    margin-top: 0px;margin-left: 0px;margin-bottom: 0px;margin-right: 0px; */
+    background-color: #f5f5f5;
+}
+.setHeader{
+    position: relative;
+    width: 100%;
+    z-index: 0;
+    /* z-index: 100; */
+}
+.userLogin{
+    position: absolute;
+    top: 40px;left: 0;bottom: 0;right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.userLoginContainer{
+    background-color: #fff;
+    height: 500px;
+    width: 1000px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 2px 24px;
+    display: flex;
+}
+.leftPanel{
+    width: 50%;
+}
+.animateImg{
+    height: 400px;
+    width: 350px;
+    margin: auto;
+    margin-top: 2rem;
+}
+.rightPanel{
+    width:50%;
+    position: relative;
+    padding-top: 20px;
+}
+.rightPanel > h2{
+    position: relative;
+    text-align: left;
+    margin-left: 6rem;
+    margin-bottom: 30px;
+    color: darkcyan;
+}
+.userfeilds{
+    position: relative;
+    margin-bottom: 30px;
+    width: 100%;
+}
+.userfeilds > input{
+  border: none;
+  appearance: none;
+  background: #f5f5f5;
+  padding: 16px;
+  border-radius: 3px;
+  width: 300px;
+  font-size: 14px;
+  border: 2px solid #ddd;
+}
+.showPass{
+    position: absolute;
+    right:7rem;
+    top:1rem;
+    cursor: pointer;
+}
+.userfeilds > .placeholder{
+    position: absolute;
+    left:118px;
+    top:25px;
+    transform: translateY(-50%);
+    color: #aaa;
+    font-weight: 500;
+}
+.userfeilds input:valid,
+.userfeilds input:focus{
+    background-color: #fff;
+}
+.userfeilds input:valid + .placeholder,
+.userfeilds input:focus + .placeholder{
+    top:0px;
+    font-size: 13px;
+    color: #222;
+    transition: all 0.3s;
+    background: #fff;
+    padding: 0 7px;
+}
+
+/* .userfeilds > .foc{
+    top:0px;
+    font-size: 12px;
+    color: #222;
+    transition: all 0.7s;
+    background: #fff;
+    padding: 0 7px;
+}
+.userfeilds > .foc + .userfeilds > input{
+    background-color: #dc3545;
+} */
+.userSubmit{
+    width: 300px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    color: red;
+    color:#fff;
+    border-radius: 3px;
+    background-color: darkcyan;
+}
+.userLoginfeildsContainer > form > .userSubmit{
+    background-color: darkcyan;
+    border: none;
+    outline: none;
+}
+.userSubmit:hover{
+    filter:opacity(0.8);
+    cursor: pointer;
+}
+.signinLink{
+    color: grey;
+    margin-top: 10px;
+}
+.signinLink > span{
+    color: #111;
+    cursor: pointer;
+}
+.loginhr{
+    position: relative;
+    margin: auto;
+}
+.loginhr > div{
+    background-color: #111;
+    height: 1px;
+    width: 320px;
+    margin: auto;
+    margin-top: 35px;
+}
+.loginhr > span{
+    position: absolute;
+    top:-13px;
+    font-size: 16px;
+    background-color: #fff;
+    padding: 0px 7px;
+    left: 48%;
+}
+.formErr{
+   /* color: #dc3545;
+   display: flex; */
+   color: red;
+    display: flex;
+    font-size: 13px;
+    font-weight: 500;
+   margin-left: 6rem;
+   margin-top: 0.4rem;
+   margin-bottom: -1.2rem;
+}
+.formErr > span{
+   margin-right: 0.1rem;
+   font-size: 20px;
+}
+.formErr > div{
+    font-size: 12px;
+}
+.formErrCom{
+   color: #dc3545;
+   display: flex;
+   margin-left: 6rem;
+   margin-top: -1.5rem;
+   margin-bottom: 1rem;
+}
+.formErrCom > span{
+   margin-right: 0.1rem;
+   font-size: 20px;
+}
+.formErrCom > div{
+    font-size: 15px;
+}
+.userPassword{
+    margin-bottom: -1rem;
+}
+.spinner{
+    filter: opacity(0.6);
+    font-size: 0.7rem;
+    height: 1.2rem;
+    width: 1.2rem;
+}
+.forgotPassLink{
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 0.5rem;
+    margin-bottom: -0.8rem;
+}
+.googleLogin{
+    width: 260px;
+    margin: auto;
+    margin-top: 1.5rem;
+}
+.googleLogin > button{
+    width: 100%;
+    box-shadow: rgba(149, 157, 165, 0.7) 50px 80px 240px;
+    margin: auto;
+    border: none;
+    outline: none;
+}
+.webLoad{
+    height: 50px;
+    width: 50px;
+    margin: auto;
+    margin: 9rem 0rem;
+}
